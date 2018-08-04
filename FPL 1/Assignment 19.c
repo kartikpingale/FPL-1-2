@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to store N numbers in an array and reverse the elements of the array
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
