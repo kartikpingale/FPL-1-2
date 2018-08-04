@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+A customer is offered 15% discount on the printed price of a laptop. The customer has to pay 7% sales tax on the remaining amount. Write a program in C to calculate the amount to be paid by the customer
+*/
+
 #include <stdio.h>
 
 int main()
