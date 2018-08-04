@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to accept cost price and sales price of an item and calculate the profit percentage or loss percentage.
+*/
+
 #include <stdio.h>
 
 int main()
