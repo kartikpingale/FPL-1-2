@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to calculate the sum of all positive even numbers and the sum of all negative odd numbers from the set of input numbers
+*/
+
 #include <stdio.h>
 
 int main()
