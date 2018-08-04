@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to compute the roots of given quadratic equation for non-zero coefficients.
+*/
+
 #include <stdio.h>
 #include <math.h>
 
