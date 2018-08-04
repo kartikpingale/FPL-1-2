@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to store the N data samples in an array and calculate mean, mode and median
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
