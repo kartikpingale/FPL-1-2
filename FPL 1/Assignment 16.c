@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to store N numbers in an array and search particular number
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
