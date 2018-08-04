@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to accept the length of three sides of a triangle and to test and print the type of triangle as equilateral, isosceles or right angled or none
+*/
+
 #include <stdio.h>
 
 int main()
