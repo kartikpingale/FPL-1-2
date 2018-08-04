@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to separate digits of input 4 digit integer, separate & display its digits.
+*/
+
 #include <stdio.h>
 
 int main()
