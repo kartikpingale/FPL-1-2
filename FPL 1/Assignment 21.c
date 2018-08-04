@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to store N numbers in an array and compute the sum of all even and odd numbers in an array.
+*/
+
 #include <stdio.h>
 
 int main()
