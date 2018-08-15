@@ -1,1 +1,4 @@
-
+/*
+PROBLEM STATEMENT
+Write a C program to store N numbers in an array and display the square of each number in the array
+*/
