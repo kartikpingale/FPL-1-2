@@ -1,1 +1,4 @@
-
+/*
+PROBLEM STATEMENT
+Write a C program to accept a string and print the string in alphabetical order. Example COMPUTER will be CEMOPRTU
+*/
