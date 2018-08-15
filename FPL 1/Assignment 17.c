@@ -13,6 +13,7 @@ int main()
     printf("Enter size of the array: ");
     scanf("%d", &size);
     
+    printf("Enter numbers: ");
     for(i=0; i<size; i++)
     {
         scanf("%d", &array[i]);
