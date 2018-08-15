@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to check whether input number is Prime or not.
+*/
+
 #include <stdio.h>
 
 int main()
