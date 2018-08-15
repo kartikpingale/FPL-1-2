@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to find out if the number is a Pythagoras triplet. Ex a2=b2+c2
+*/
+
 #include <stdio.h>
 
 int main()
