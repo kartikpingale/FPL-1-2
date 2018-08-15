@@ -32,20 +32,52 @@ int main()
                 }
                 if(sum==number)
                 {
-                    printf("The number is a perfect number!\n");
+                    printf("%d is a perfect number!\n", number);
                 }
                 else
                 {
-                    printf("The number is not a perfect number!\n");
+                    printf("%d is not a perfect number!\n", number);
                 }
                 break;
             }
         case 2:
             {
+                int square;
+                square=number*number;
+                while(square>0)
+                {
+                    sum+=(square%10);
+                    square/=10;
+                }
+                if(sum==number)
+                {
+                    printf("%d is a neon number!\n", number);
+                }
+                else
+                {
+                    printf("%d is not a neon number!\n", number);
+                }
                 break;
             }
         case 3:
             {
+                int cube, aNumber;
+                aNumber=number;
+                while(number>0)
+                {
+                    cube=number%10;
+                    cube=(cube*cube*cube);
+                    sum+=cube;
+                    number/=10;
+                }
+                if(sum==aNumber)
+                {
+                    printf("%d is an armstrong number!\n", aNumber);
+                }
+                else
+                {
+                    printf("%d is not an armstrong number!\n", aNumber);
+                }
                 break;
             }
         default:
