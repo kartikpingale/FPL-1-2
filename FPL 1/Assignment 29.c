@@ -1,3 +1,8 @@
+/*
+PROBLEM STATEMENT
+Write a C program to accept a string and replace all the vowels in the string with *.
+*/
+
 #include <stdio.h>
 
 int main()
