@@ -1,1 +1,4 @@
-
+/*
+PROBLEM STATEMENT
+Write a C program to sort the roll numbers of present students. Mark the attendance of the present students roll numbers randomly in an array.
+*/
