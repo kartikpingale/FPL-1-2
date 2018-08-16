@@ -65,5 +65,5 @@ int stringLength(char string[])
 		length++;
 		i++;
 	}
-	return length
+	return length;
 }
