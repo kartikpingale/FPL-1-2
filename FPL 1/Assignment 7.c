@@ -3,6 +3,8 @@ PROBLEM STATEMENT
 Write a C program to implement Euclid’s algorithm to find the GCD and LCM of the given two integers.
 */
 
+#include <stdio.h>
+
 int main()
 {
     int num1, num2, gcd, lcm, remainder, numerator, denominator;
