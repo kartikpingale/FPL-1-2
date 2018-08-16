@@ -7,3 +7,23 @@ c) Total number of passing students in the class
 d) Total number of students failing in one subject
 e) Total number of distinctions in the class
 */
+
+#include <stdio.h>
+
+struct student
+{
+	char name[30];
+	int marks[5];
+	float percent;
+};
+
+int main()
+{
+	struct student s[10];
+	int choice, i;
+	
+	printf("");
+	scanf("");
+	
+	return 0;
+}
