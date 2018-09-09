@@ -19,7 +19,7 @@ int main()
 	{
 		size++;
 	}
-	printf("%d", size);
+
 	/* sorts the elements of the string using bubble sort */
 	for(j=0; j<size-1; j++)
 	{
