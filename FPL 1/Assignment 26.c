@@ -9,6 +9,7 @@ Write a C program that will check whether given string is palindrome or not.
 int main()
 {
     char string[100], reversed[100];
+    
     if(strcmp(string,strrev(string))==0)
     {
         printf("Palindrome!");
@@ -17,5 +18,6 @@ int main()
     {
         printf("Not a palindrome!");
     }
+    
     return 0;
 }
