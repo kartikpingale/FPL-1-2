@@ -10,13 +10,16 @@ void swap(int *one, int *two);
 int main()
 {
     int first, second;
+    
     printf("Enter first number: ");
     scanf("%d", &first);
     printf("Enter second number: ");
     scanf("%d", &second);
+    
     printf("Before Swapping:\na=%d\tb=%d\n\n", first, second);
     swap(&first, &second);
     printf("After Swapping:\na=%d\tb=%d\n", first, second);
+    
     return 0;
 }
 
