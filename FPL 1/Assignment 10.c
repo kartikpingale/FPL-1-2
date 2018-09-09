@@ -8,8 +8,10 @@ Write a C program to separate digits of input 4 digit integer, separate & displa
 int main()
 {
     int number, digit, newNumber=0;
+    
     printf("Enter a number: ");
     scanf("%d", &number);
+    
     while(number>0)
     {
         digit=number%10;
@@ -22,5 +24,6 @@ int main()
         printf("%d\n", digit);
         newNumber=newNumber/10;
     }
+    
     return 0;
 }
