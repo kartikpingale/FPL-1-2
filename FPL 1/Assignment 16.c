@@ -10,14 +10,18 @@ int main()
 {
     int array[20];
     int size, search, i, flag=0;
+    
     printf("Enter size of the array: ");
     scanf("%d", &size);
+    
     for(i=0; i<size; i++)
     {
         scanf("%d", &array[i]);
     }
+    
     printf("Enter number to search in the array: ");
     scanf("%d", &search);
+    
     for(i=0; i<size; i++)
     {
         if(search==array[i])
@@ -31,5 +35,6 @@ int main()
     {
         printf("%d is not present in the array!\n", search);
     }
+    
     return 0;
 }
