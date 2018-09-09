@@ -8,10 +8,12 @@ Write a C program to accept cost price and sales price of an item and calculate 
 int main()
 {
     float cost, sales, change, percentage;
+    
     printf("Enter cost price: ");
     scanf("%f", &cost);
     printf("Enter sales price: ");
     scanf("%f", &sales);
+    
     if(sales>cost)
     {
         change=sales-cost;
@@ -28,5 +30,6 @@ int main()
     {
         printf("You broke even!\n");
     }
+    
     return 0;
 }
